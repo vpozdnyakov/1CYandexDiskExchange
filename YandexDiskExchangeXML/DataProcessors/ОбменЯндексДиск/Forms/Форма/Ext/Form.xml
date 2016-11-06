@@ -84,15 +84,15 @@
 							<AutoCommandBar name="СписокФайловКоманднаяПанель" id="24">
 								<Autofill>false</Autofill>
 								<ChildItems>
-									<Button name="СписокФайловСкачать" id="48">
+									<Button name="СписокФайловСписокФайловСкачатьФайл" id="48">
 										<Type>CommandBarButton</Type>
-										<CommandName>Form.Command.Скачать</CommandName>
-										<ExtendedTooltip name="СписокФайловСкачатьРасширинаяПодсказка" id="49"/>
+										<CommandName>Form.Command.СкачатьФайл</CommandName>
+										<ExtendedTooltip name="СписокФайловСписокФайловСкачатьФайлРасширинаяПодсказка" id="49"/>
 									</Button>
-									<Button name="СписокФайловЗагрузитьФайлНаДиск" id="69">
+									<Button name="СписокФайловСписокФайловЗагрузитьФайл" id="69">
 										<Type>CommandBarButton</Type>
-										<CommandName>Form.Command.ЗагрузитьФайлНаДиск</CommandName>
-										<ExtendedTooltip name="СписокФайловЗагрузитьФайлНаДискРасширинаяПодсказка" id="70"/>
+										<CommandName>Form.Command.ЗагрузитьФайл</CommandName>
+										<ExtendedTooltip name="СписокФайловСписокФайловЗагрузитьФайлРасширинаяПодсказка" id="70"/>
 									</Button>
 									<Button name="СписокФайловСоздатьПапку" id="65">
 										<Type>CommandBarButton</Type>
@@ -175,6 +175,12 @@
 							<ContextMenu name="ТокенКонтекстноеМеню" id="2"/>
 							<ExtendedTooltip name="ТокенРасширеннаяПодсказка" id="3"/>
 						</InputField>
+						<InputField name="СрокДействияТокена" id="19">
+							<DataPath>Объект.СрокДействияТокена</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="СрокДействияТокенаКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="СрокДействияТокенаРасширеннаяПодсказка" id="21"/>
+						</InputField>
 						<InputField name="IDПриложения" id="10">
 							<DataPath>Объект.IDПриложения</DataPath>
 							<EditMode>EnterOnInput</EditMode>
@@ -192,17 +198,6 @@
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="КодАвторизацииКонтекстноеМеню" id="17"/>
 							<ExtendedTooltip name="КодАвторизацииРасширеннаяПодсказка" id="18"/>
-						</InputField>
-						<InputField name="СрокДействияТокена" id="19">
-							<DataPath>Объект.СрокДействияТокена</DataPath>
-							<EditMode>EnterOnInput</EditMode>
-							<ContextMenu name="СрокДействияТокенаКонтекстноеМеню" id="20"/>
-							<ExtendedTooltip name="СрокДействияТокенаРасширеннаяПодсказка" id="21"/>
-						</InputField>
-						<InputField name="КоличествоЭлементовНаСтранице" id="62">
-							<DataPath>Объект.КоличествоЭлементовНаСтранице</DataPath>
-							<ContextMenu name="КоличествоЭлементовНаСтраницеКонтекстноеМеню" id="63"/>
-							<ExtendedTooltip name="КоличествоЭлементовНаСтраницеРасширинаяПодсказка" id="64"/>
 						</InputField>
 					</ChildItems>
 				</Page>
@@ -259,18 +254,18 @@
 			</Title>
 			<Action>ПолучитьТокен</Action>
 		</Command>
-		<Command name="Скачать" id="3">
+		<Command name="СкачатьФайл" id="3">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Скачать</v8:content>
+					<v8:content>Скачать файл</v8:content>
 				</v8:item>
 			</Title>
 			<Picture>
 				<xr:Ref>StdPicture.OpenFile</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
-			<Action>Скачать</Action>
+			<Action>СкачатьФайл</Action>
 			<Representation>TextPicture</Representation>
 		</Command>
 		<Command name="ПолучитьКодАвторизации" id="4">
@@ -334,18 +329,18 @@
 			</Picture>
 			<Action>УдалитьПапкуИлиФайл</Action>
 		</Command>
-		<Command name="ЗагрузитьФайлНаДиск" id="9">
+		<Command name="ЗагрузитьФайл" id="9">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Загрузить файл на диск</v8:content>
+					<v8:content>Загрузить файл</v8:content>
 				</v8:item>
 			</Title>
 			<Picture>
 				<xr:Ref>StdPicture.CreateListItem</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
-			<Action>ЗагрузитьФайлНаДиск</Action>
+			<Action>ЗагрузитьФайл</Action>
 			<Representation>TextPicture</Representation>
 		</Command>
 		<Command name="ОбновитьСписокФайлов" id="10">
