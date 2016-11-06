@@ -94,6 +94,11 @@
 										<CommandName>Form.Command.ЗагрузитьФайл</CommandName>
 										<ExtendedTooltip name="СписокФайловСписокФайловЗагрузитьФайлРасширинаяПодсказка" id="70"/>
 									</Button>
+									<Button name="СписокФайловПоднятьсяВверх" id="54">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ПоднятьсяВверх</CommandName>
+										<ExtendedTooltip name="СписокФайловПоднятьсяВверхРасширинаяПодсказка" id="55"/>
+									</Button>
 									<Button name="СписокФайловСоздатьПапку" id="65">
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.СоздатьПапку</CommandName>
@@ -103,16 +108,6 @@
 										<Type>CommandBarButton</Type>
 										<CommandName>Form.Command.УдалитьПапкуИлиФайл</CommandName>
 										<ExtendedTooltip name="СписокФайловУдалитьПапкуИлиФайлРасширинаяПодсказка" id="68"/>
-									</Button>
-									<Button name="СписокФайловОткрытьПапку" id="52">
-										<Type>CommandBarButton</Type>
-										<CommandName>Form.Command.ОткрытьПапку</CommandName>
-										<ExtendedTooltip name="СписокФайловОткрытьПапкуРасширинаяПодсказка" id="53"/>
-									</Button>
-									<Button name="СписокФайловПоднятьсяВверх" id="54">
-										<Type>CommandBarButton</Type>
-										<CommandName>Form.Command.ПоднятьсяВверх</CommandName>
-										<ExtendedTooltip name="СписокФайловПоднятьсяВверхРасширинаяПодсказка" id="55"/>
 									</Button>
 								</ChildItems>
 							</AutoCommandBar>
