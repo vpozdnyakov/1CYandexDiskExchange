@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.4">
+	<ConfigVersions>
+		<Metadata name="Configuration.ОбменЯндексДиск" id="9439c188-d8ff-41ea-a52b-50e75402d303" configVersion="461ef89296766f4aa80bd2a62a50c1e900000000"/>
+		<Metadata name="DataProcessor.ОбменЯндексДиск" id="7f309f0d-8a01-4139-93e9-e4b9b2a7e0c7" configVersion="58a667451a2c7c4abdcda73d9c0ffa8200000000">
+			<Metadata name="DataProcessor.ОбменЯндексДиск.Attribute.КодАвторизации" id="17476055-5dbb-4230-859a-bd08ba9f7fc9"/>
+			<Metadata name="DataProcessor.ОбменЯндексДиск.TabularSection.СписокФайлов.Attribute.Тип" id="2989920b-4d95-4d2d-bf34-1ce0bc90b978"/>
+			<Metadata name="DataProcessor.ОбменЯндексДиск.Attribute.Токен" id="5b719b88-3e77-42a6-b8b0-aad900536669"/>
+			<Metadata name="DataProcessor.ОбменЯндексДиск.Attribute.СрокДействияТокена" id="73f59b50-8af0-41ae-885e-0b302595e2f4"/>
+			<Metadata name="DataProcessor.ОбменЯндексДиск.TabularSection.СписокФайлов.Attribute.Имя" id="ad8c6d2d-004d-400d-b1fc-5ddb20ae3752"/>
+			<Metadata name="DataProcessor.ОбменЯндексДиск.TabularSection.СписокФайлов" id="adddbce5-f788-409c-b87f-98593eb4271f"/>
+			<Metadata name="DataProcessor.ОбменЯндексДиск.Attribute.IDПриложения" id="b96b0790-3fb4-4f58-b30a-f392a293d83a"/>
+			<Metadata name="DataProcessor.ОбменЯндексДиск.TabularSection.СписокФайлов.Attribute.Путь" id="e967ccba-1b3c-4578-95cf-159b6dabd218"/>
+			<Metadata name="DataProcessor.ОбменЯндексДиск.Attribute.ПарольПриложения" id="f706dcea-fa1c-4964-97c9-cf2f8cb59f07"/>
+		</Metadata>
+		<Metadata name="DataProcessor.ОбменЯндексДиск.Form.Форма" id="b1de0303-aa12-4b6d-836d-3bd83fb5844f" configVersion="1ca1b3d9bf0b7d48a6ef10e11b8c66c400000000"/>
+		<Metadata name="DataProcessor.ОбменЯндексДиск.Form.Форма.Form" id="b1de0303-aa12-4b6d-836d-3bd83fb5844f.0" configVersion="79f040e84985a64c90598eedb719a88800000000"/>
+		<Metadata name="DataProcessor.ОбменЯндексДиск.Form.Форма.Help" id="b1de0303-aa12-4b6d-836d-3bd83fb5844f.1" configVersion="d4a7151540fb5940bcc47b5f4263382100000000"/>
+		<Metadata name="DataProcessor.ОбменЯндексДиск.Form.ФормаАвторизации" id="1491bf2d-dd6f-4f14-a023-e59ef657a8ac" configVersion="67f52140dfea0a42ad1d7f59ca20087800000000"/>
+		<Metadata name="DataProcessor.ОбменЯндексДиск.Form.ФормаАвторизации.Form" id="1491bf2d-dd6f-4f14-a023-e59ef657a8ac.0" configVersion="f48f41125fec80488e4439e58574704e00000000"/>
+		<Metadata name="DataProcessor.ОбменЯндексДиск.ManagerModule" id="7f309f0d-8a01-4139-93e9-e4b9b2a7e0c7.2" configVersion="6e764491f53b5f4992566d4d2795574d00000000"/>
+		<Metadata name="DataProcessor.ОбменЯндексДиск.ObjectModule" id="7f309f0d-8a01-4139-93e9-e4b9b2a7e0c7.0" configVersion="c30fdd99968b7a4e84c31b9fb9eb0bda00000000"/>
+		<Metadata name="Language.Русский" id="2ae564c9-0f9d-4f5b-874f-c624fc6abca6" configVersion="328b2a2abf84dd4385858f997e9c42a000000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

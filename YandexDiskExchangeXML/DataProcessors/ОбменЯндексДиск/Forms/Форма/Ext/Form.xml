@@ -191,6 +191,16 @@
 										<CommandName>Form.Command.ОбновитьСписокФайлов</CommandName>
 										<ExtendedTooltip name="ОбновитьСписокФайловРасширинаяПодсказка" id="82"/>
 									</Button>
+									<Button name="СписокФайловОпубликовать" id="95">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.Опубликовать</CommandName>
+										<ExtendedTooltip name="СписокФайловОпубликоватьРасширеннаяПодсказка" id="96"/>
+									</Button>
+									<Button name="СписокФайловОтменитьПубликацию" id="97">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ОтменитьПубликацию</CommandName>
+										<ExtendedTooltip name="СписокФайловОтменитьПубликациюРасширеннаяПодсказка" id="98"/>
+									</Button>
 								</ChildItems>
 							</AutoCommandBar>
 							<ExtendedTooltip name="СписокФайловРасширеннаяПодсказка" id="25"/>
@@ -458,6 +468,40 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ПапкаПриложения</Action>
+		</Command>
+		<Command name="Опубликовать" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Опубликовать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Опубликовать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.GetURL</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>Опубликовать</Action>
+		</Command>
+		<Command name="ОтменитьПубликацию" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отменить публикацию</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отменить публикацию</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтменитьПубликацию</Action>
 		</Command>
 	</Commands>
 </Form>
